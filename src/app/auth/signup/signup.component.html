@@ -26,6 +26,10 @@
             <mat-hint align="end"> {{ pwInput.value?.length }} / 6 </mat-hint> 
             <!-- NOTE errors will override hints -->
         </mat-form-field>
+        <mat-form-field>
+            <input mat-input placeholder="Your birthday">
+            <mat-datepicker-toggle></mat-datepicker-toggle>
+        </mat-form-field>
         <button type="submit" mat-raised-button color="primary">Submit</button>
     </form>
 </section>
