@@ -39,7 +39,9 @@ import {MatChipsModule} from '@angular/material/chips'
     MatChipsModule
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ]
 })
 export class MaterialModule { }
